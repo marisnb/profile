@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 18px;
+    color: #111;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+code,
+pre,
+tt {
+    font-family: "Iosevka", monospace;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Regular.otf.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    src: url("../fonts/SourceSansPro-Bold.otf.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("../fonts/iosevka-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Iosevka";
+    font-weight: bold;
+    src: url("../fonts/iosevka-extraboldoblique.woff2") format("woff2");
+}
+
+p {
+    margin: 16px 0;
+}
+p, dd, li {
+    line-height: 1.4em;
+}
+h1, h2, h3, h4, h5 {
+    font-family: Source Sans Pro, sans-serif;
+    color: #000;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    margin: 24px 0 24px;
+}
+h2 {
+    font-size: 24px;
+}
+a, a:active, a:hover, a:visited {
+    color: #00a;
+    text-decoration: none;
+}
+ul {
+    margin-left: 36px;
+}
